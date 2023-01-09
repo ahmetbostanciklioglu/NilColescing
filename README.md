@@ -4,7 +4,7 @@
 
 
 **Nil Coalescing:**
-
+```
 func nilCoalescingFunc(_ param: Int) -> String? {
     if param == 13 {
         return "Ahmet"
@@ -15,4 +15,4 @@ func nilCoalescingFunc(_ param: Int) -> String? {
 }
 let nilCoalescingObject = nilCoalescingFunc(18) ?? "Alex"
 print(nilCoalescingObject)
-
+```
